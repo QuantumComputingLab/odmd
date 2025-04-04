@@ -1,4 +1,4 @@
-This directory contains the Python scripts used to generate data for Heisenberg spin model and post-process results for ODMD and UVQPE convergence studies.
+This directory contains the Python scripts used to generate data for Heisenberg spin Hamiltonian and post-process results for ODMD, VQPE, UVQPE, and QCELS convergence studies.
 
 ### Included Python Scripts
 
