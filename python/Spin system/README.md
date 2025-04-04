@@ -1,16 +1,15 @@
 This directory contains the Python scripts used to generate data for Heisenberg spin model and post-process results for ODMD and UVQPE convergence studies.
 
-### Included Scripts
+### Included Python Scripts
 
-- `get_overlaps_and_convergence_metrics.py` – main script for generating overlap data and running eigensolver benchmarks  
+- `get_overlaps_and_convergence_metrics_Fig5.py` – main script for generating overlap data and running eigensolver benchmarks  
 - `Heisenberg_1D.py` – defines the Heisenberg spin chain model  
 - `classical_post_processing.py` – contains routines for analyzing and formatting simulation output  
 
 
+### Reproducing the Python Script Data
 
-### Reproducing the Data
-
-To regenerate the input data, run the following from `generate_overlaps_classical_H1D_v2.py`:
+To regenerate the input data, run the following from `get_overlaps_and_convergence_metrics_Fig5.py`:
 
 ```python
 generate_overlaps_for_database_exact(n_steps=250, use_cat=True)   # generates 'superposition' data  
@@ -25,11 +24,18 @@ make_eigenvector_convergence_fig(max_steps=250)
 [Note: This step introduces random noise, so the resulting numerical values will vary between runs.]
 
 ----------------------------------------------------------------------------------------------------
-To save the output in the format used for plotting, run:
+To save the output in the format used for plotting, execute:
 
 ```python
 convert_residuals_to_dat()
 
+----------------------------------------------------------------------------------------------------
+To perform the full data generation and analysis as described, execute:
+
+```python
+ run() 
+
+### Included Interactive Python Notebooks
 
 
 
