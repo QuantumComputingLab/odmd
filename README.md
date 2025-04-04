@@ -1,5 +1,4 @@
-# odmd
-Observable Dynamic Mode Decomposition (ODMD)
+# Observable Dynamic Mode Decomposition (ODMD)
 
 This repository contains MATLAB and Python implementations of ODMD, a real-time eigensolver for estimating the low-lying eigenenergies and eigenstates of many-body Hamiltonians.
 
