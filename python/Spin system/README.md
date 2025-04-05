@@ -41,7 +41,7 @@ run()
 - `ODMD_utilities.ipynb` – contains routines for running ODMD 
 - `VQPE_utilities.ipynb` – contains routines for running VQPE and UVQPE
 - `QCELS_utilities.ipynb` – contains routines for running QCELS
-- `compare_methods_spin_Fig5.ipynb` – compares VQPE, UVQPE, and QCELS for the 1d Heisenberg model with data generated above
+- `compare_methods_spin_Fig5.ipynb` – walks through VQPE, UVQPE, and QCELS calculations for the 1d Heisenberg model with data generated above
 
 
 
